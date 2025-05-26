@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-grad {
+  background-image: linear-gradient(to right, #000000 0%, #0f9b0f 51%, #000000 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to bottom right, #1f2937, #374151, #000000);
+  min-height: 100vh;
+}
